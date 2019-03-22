@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: microservicecloud-config-verya-dev
+---
+spring:
+  profiles: dev #测试环境
+  application:
+    name: microservicecloud-config-verya-test
+
+# 保存为UTF-8格式
